@@ -1,0 +1,104 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg,#00c4cc,#7d1ae8);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: 0;
+    background-color: #7d1ae8;
+    width: 30%;
+
+}
+
+.game-bord {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-containar button , #play-btn a , .reset , .reset a {
+    margin: 1%;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+button:focus {
+    outline: 0;
+  }
+  
+.reset {
+    width: 60%;
+    height: 50%;
+    margin: 5% 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset:hover , #play-btn:hover {
+    background: #00c4cc;
+}
+#header {
+    color: aliceblue;
+    font-size: 150px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.btn-containar{
+    text-align: center;
+}
+
+.cards-containar {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(22,54,116,.4);
+    opacity: 1;
+    border-radius: 6px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: 33% 33% 33%;
+}
+
+.cards {
+    position: relative;
+    border: solid white 3px;
+    cursor: pointer;
+}
+
+.x-play {
+    background-color: #7d1ae8;
+}
+
+.o-play {
+    background-color: #00c4cc;
+}
+
+#reset {
+    align-self: flex-end;
+}
