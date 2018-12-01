@@ -13,6 +13,17 @@ It's a 3x3 Tic Tac Toe for one or two players, the player who place three matchi
 * CSS
 * JQuery
 
+## Aprouch
+1st: I srtart the game as one player with computer.
+2nd: add some AI for computer selection.
+3rd: add a two player option.
+4th: editing the game design.
+
+## Resource
+* W3School
+* stackoverflow
+* css-tricks
+
 ## Upcoming Features
 I would like to improve it much more in the AI part and make it online game.
 
