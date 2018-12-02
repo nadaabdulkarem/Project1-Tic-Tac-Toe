@@ -31,4 +31,4 @@ It's a 3x3 Tic Tac Toe for one or two players, the player who place three matchi
 I would like to improve it much more in the AI part and make it online game.
 
 ## Thanks
-Thankful to everyone who helps me and teaches me new thing and ideas.
+Thankful to everyone who helps me and teaches me new things and ideas.
