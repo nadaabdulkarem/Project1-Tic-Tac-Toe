@@ -30,5 +30,7 @@ It's a 3x3 Tic Tac Toe for one or two players, the player who place three matchi
 ## Upcoming Features
 I would like to improve it much more in the AI part and make it online game.
 
+Add score and make it depends on time and number of choices. 
+
 ## Thanks
 Thankful to everyone who helps me and teaches me new things and ideas.
